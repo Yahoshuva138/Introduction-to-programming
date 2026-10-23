@@ -1,18 +1,14 @@
  Write a C program to input a number and a specific digit (0-9) from the user, and print how many times the digit appears in the provided number. The counting must be done by a function frequency() in main.c which takes the inputs from the user and returns the frequency to the user.
 
 Sample Output Example 1:
-Enter a number
 122353
-Enter digit to be checked
 3
-The frequency of digit 3 in 122353 is 2
+Frequency of 3 in 122353 is: 2
 
 Sample Output Example 2:
-Enter a number
 4491
-Enter digit to be checked
 5
-The frequency of digit 5 in 4491 is 2
+Frequency of 5 in 4491 is: 0
 
 
 

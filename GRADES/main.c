@@ -6,18 +6,18 @@ int main()
     printf("Enter your marks: \n");
     scanf("%d", &marks);
 
-    /* Call grades() ONCE and store the result, so the error
-       message (printed inside grades()) is never shown twice. */
+    /* Call grades() ONCE and store the result before printing. */
     char result = grades(marks);
 
     if (result == 'X')
     {
-        /* The error message was already printed inside grades().
-           Nothing more to do here. */
+        /* The function report()/grades() must not print anything,
+           so main() prints the error message for invalid marks. */
+        printf("Invalid marks entered. Please enter a value between 0 and 100.\n");
     }
     else
     {
-        printf("Grade: %c", result);
+        printf("Grade: %c\n", result);
     }
 
     return 0;

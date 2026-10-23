@@ -6,11 +6,12 @@ char grades(int marks)
     //Write your code here
 
     /* Step 1: handle invalid input first.
-       Marks must be between 0 and 100 (both included). */
+       Marks must be between 0 and 100 (both included).
+       Per the assignment: the function itself must NOT print
+       anything - it only signals "invalid" by returning 'X'. */
     if (marks < 0 || marks > 100)
     {
-        printf("Invalid marks entered. Please enter a value between 0 and 100.\n");
-        return 'X';   /* 'X' signals "invalid" to main() */
+        return 'X';
     }
 
     /* Step 2: use switch case as hinted.

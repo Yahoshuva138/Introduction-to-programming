@@ -6,8 +6,8 @@ Write a C program that prepares a report card for a student. The function report
 50 - 59: Grade E
 0 - 49: Grade F
 
-Your function should also be capable of handling invalid inputs, such as marks outside the range 0-100 by printing the error message, “Invalid marks entered. Please enter a value between 0 and 100.” 
-The function returns a character that is assigned to the student (their grade). In case of invalid input, return 'X'. 
+Your function should also be capable of handling invalid inputs, such as marks outside the range 0-100. The function should NOT print anything; in case of invalid input it must return X, and the main() function then prints the error message: "Invalid marks entered. Please enter a value between 0 and 100."
+The function returns a character that is assigned to the student (their grade).
 (Hint: use switch case to determine grade)
 
 

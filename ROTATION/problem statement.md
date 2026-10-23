@@ -3,11 +3,21 @@ Go through the below sample inputs and outputs carefully.
 
 Sample Output Example 1:
 96
-Yes, the number can be read upside down.
+Yes, the number reads the same upside-down.
 
 Sample Output Example 2:
-450
-No, the number cannot be read upside down.
+1691
+Yes, the number reads the same upside-down.
+(Hint: The numbers which form a valid number when rotated are-
+0 -> 0
+1 -> 1 (Consider it to be 'I' and not '1')
+8 -> 8
+6 -> 9
+9 -> 6)
+
+Sample Output Example 3:
+480
+No, the number does not read the same upside-down.
 
 
 Compilation and Execution Steps:
